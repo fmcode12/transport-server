@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+gunicorn
+psycopg2-binary
+supabase
+python-dotenv
+email-validator
+pydantic
+geoalchemy2
+shapely
+slowapi
+httpx
