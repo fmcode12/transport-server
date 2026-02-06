@@ -28,5 +28,6 @@ Thumbs.db
 
 # Render build cache (optional)
 render.yaml~
-server/migrate.py
-gpx-files
+migrate.py
+gpx-files/
+transport.db
