@@ -1,20 +1,32 @@
-# Python virtual environments
-venv/
-env/
-.venv/
-.env/
-ENV/
-.env
-# Python cache
+uploads
+proj-data.txt
+
+# Python (backend)
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+.env
+.env.local
+instance/
+db.sqlite3
 
-# OS files
+# FastAPI / virtualenv
+venv/
+.env/
+*.db
+
+# Node (frontend)
+client/node_modules
+client/.env
+client/.vite/
+
+# System / IDE
 .DS_Store
 Thumbs.db
 
-# IDEs
-.vscode/
-.idea/
-*.db
+
+# Render build cache (optional)
+render.yaml~
+server/migrate.py
+gpx-files
